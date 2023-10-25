@@ -83,3 +83,63 @@ if (min >= 0 && min <= 15) {
 }
 
 console.log(min); */
+
+// let result = 0;
+// const stat = 'Free';
+
+// if (stat === 'Premium') {
+//   result = 100;
+// } else if (stat === 'Canon') {
+//   result = 2;
+// } else {
+//   result = 200;
+// }
+
+// console.log(result);
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//   if (message.length < maxLength) {
+//     result = message;
+//   } else {
+//     result = message.slice(0, maxLength) + '...';
+//   }
+//   /// Change code above this line
+//   return result;
+// }
+
+// console.log(formatMessage('Vestibulum facilisis purus nec', 20));
+
+// const stars = 4;
+// let price = 0;
+
+// switch (stars) {
+//   case 1:
+//     price = 50;
+//     break;
+//   case 2:
+//     price = 100;
+//     break;
+//   case 3:
+//     price = 150;
+//     break;
+//   case 4:
+//     price = 200;
+//     break;
+//   default:
+//     console.log('No one is not accepted');
+// }
+
+// console.log(price);
+
+// const clients = ['Nango', 'Gor', 'Alen'];
+
+// const lastIndex = clients.length - 1;
+
+// console.log(clients[lastIndex]);
+
+const arr = [12, 4, 45, 123, 45, 3];
+for (let i = 0; i < arr.length; i += 1) {
+  console.log(arr[i]);
+}
